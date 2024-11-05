@@ -1,18 +1,17 @@
 /* CSS Reset */
-
 * {
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   line-height: 1.5;
   font-size: unset;
   /*border: 1px red solid*/
 }
 
-li{
+li {
   display: inline-block;
 }
 
@@ -23,17 +22,18 @@ button {
   font-size: large;
 }
 
-form fieldset{
+form fieldset {
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
   background: none;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 100%;
   color: inherit;
   display: block;
 }
+
 /* Estilos */
 /* HEADER */
 header {
@@ -45,7 +45,7 @@ header {
   flex-direction: column;
 }
 
-#header #navBar ul li a{
+#header #navBar ul li a {
   font-style: none;
   font-size: larger;
   text-decoration: none;
@@ -54,7 +54,7 @@ header {
   flex-direction: column;
 }
 
-#navBar{
+#navBar {
   width: 100%;
   height: 100%;
   margin: auto;
@@ -64,11 +64,11 @@ header {
   justify-content: space-between;
 }
 
-.navBarr__logo{
+.navBarr__logo {
   order: 1;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   order: 2;
   margin-left: auto;
   border-color: rgb(234, 234, 234);
@@ -85,10 +85,11 @@ li {
 }
 
 /*NAV BAR BTS*/
-#a :active{
+#a :active {
   font-size: medium;
   color: #eaeaea;
 }
+
 /* MAIN */
 body {
   max-width: 1920px;
@@ -108,7 +109,7 @@ li {
   text-decoration: none;
 }
 
-main{
+main {
   min-height: 100vh;
   margin: 1vw;
   width: 100%;
@@ -119,58 +120,60 @@ main{
   flex-wrap: wrap;
 }
 
-h1{
+h1 {
   font-weight: bold;
   font-size: xx-large;
   color: #eaeaea;
 }
 
-h2{
+h2 {
   font-weight: bold;
   font-size: xx-large;
   color: #eaeaea;
 }
 
-.h3{
+.h3 {
   font-weight: bold;
-  font-size:x-large;
+  font-size: x-large;
   color: #eaeaea;
 }
 
-p{
+p {
   font-weight: normal;
   font-size: x-large;
   color: #eaeaea;
 }
 
-.main__silueta{
+.main__silueta {
   border-radius: 20px;
   max-width: 100%;
   height: auto;
 }
 
-.main__map{
+.main__map {
   border-radius: 20px;
   max-width: 100%;
   height: auto;
 }
 
-.lacasa__cont{
+.lacasa__cont {
   max-width: 100%;
   height: auto;
 }
+
 /*AGENDA*/
-.main__agenda{
+.main__agenda {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 1920px
+  max-width: 1920px;
 }
+
 /*GRID FORM*/
-.form{
+.form {
   width: 900px;
   height: 400px;
   display: grid;
@@ -179,17 +182,17 @@ p{
   justify-content: space-between;
 }
 
-.form__datos{
+.form__datos {
   display: flex;
   flex-direction: column;
 }
 
-.form__txtarea{
+.form__txtarea {
   display: flex;
   flex-direction: auto;
 }
 
-.form__btn{
+.form__btn {
   display: block;
   background: lightgrey;
   border-radius: 20px gray;
@@ -197,46 +200,52 @@ p{
   font-size: large;
 }
 
-.nys{
+.nys {
   width: 28em;
   height: 2rem;
 }
-.age{
+
+.age {
   width: 28em;
   height: 2rem;
 }
-.nro{
+
+.nro {
   width: 28em;
   height: 2rem;
 }
-.prt{
+
+.prt {
   width: 28em;
   height: 2rem;
 }
-.mail{
+
+.mail {
   width: 28em;
   height: 2rem;
 }
-.file{
+
+.file {
   width: 28em;
   height: 2rem;
 }
-.txtarea{
+
+.txtarea {
   width: 28em;
   height: 20rem;
 }
 
 /*FLEX LA CASA*/
-.flex__lacasa{
+.flex__lacasa {
   width: 100%;
   height: auto;
   display: flex;
-  flex-wrap: wrap ;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
 
-.lacasa__txt{
+.lacasa__txt {
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -245,7 +254,7 @@ p{
   text-align: left;
 }
 
-.lacasa__cont{
+.lacasa__cont {
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -253,18 +262,19 @@ p{
   justify-content: center;
   gap: 30px;
 }
+
 /* FLEX ACTIVIDADES */
-.flex{
+.flex {
   width: 100%;
   height: auto;
   display: flex;
-  flex-wrap: wrap ;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
 
-.card{
-  min-width: 480px; 
+.card {
+  min-width: 480px;
   height: auto;
   border-radius: 20px;
   display: flex;
@@ -275,42 +285,40 @@ p{
   background-color: transparent;
 }
 
-.flex__card1{
+.flex__card1 {
   width: 480px;
   height: 700px;
-  background-image: url(images/talleres_byn.png);
+  background-image: url(../images/talleres_byn.png);
   background-size: cover;
 }
 
-.flex__card2{
+.flex__card2 {
   width: 480px;
   height: 700px;
-  background-image: url(images/workshop_byn.png);
+  background-image: url(../images/workshop_byn.png);
   background-size: cover;
-  }
+}
 
-.flex__card3{
+.flex__card3 {
   width: 480px;
   max-height: 700px;
-  background-image: url(images/movimiento_byn.png);
+  background-image: url(../images/movimiento_byn.png);
   background-size: cover;
-  }
+}
 
-.titulo__actividad{
+.titulo__actividad {
   font-weight: bolder;
   font-size: xx-large;
   color: #eaeaea;
 }
 
-.descripcion__actividad{
+.descripcion__actividad {
   font-weight: normal;
   font-size: x-large;
   color: #eaeaea;
 }
 
-
 /* FOOTER */
-
 footer {
   max-width: 1920px;
   width: 100%;
@@ -323,9 +331,9 @@ footer {
   padding: 20px;
   background-color: #333;
   color: white;
-  }
+}
 
-.socialLinks i{
+.socialLinks i {
   width: 20px;
   display: block;
   margin: 10px;
@@ -336,16 +344,15 @@ footer {
 .copyright {
   font-size: small;
   display: block;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   text-align: center;
   line-height: 1.5;
   color: #eaeaea;
-
 }
 
-.policy{
+.policy {
   font-size: small;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   text-align: center;
   display: block;
   line-height: 1.5;
@@ -358,3 +365,5 @@ footer {
 }
 
 /*QUERIES*/
+
+/*# sourceMappingURL=style.css.map */
