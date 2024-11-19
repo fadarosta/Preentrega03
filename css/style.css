@@ -1,0 +1,309 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  line-height: 1.5;
+  font-size: unset;
+  /*border: 1px red solid*/
+}
+* li {
+  display: inline-block;
+}
+* button {
+  background: lightgrey;
+  border-radius: 20px gray;
+  padding: 10px;
+  font-size: large;
+}
+* form fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: none;
+  font-family: "Arial", sans-serif;
+  font-size: 100%;
+  color: inherit;
+  display: block;
+}
+
+/* HEADER */
+header {
+  max-width: 1920px;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+header #navBar {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+header #navBar ul li a {
+  font-style: none;
+  font-size: larger;
+  text-decoration: none;
+  color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+}
+
+.navBarr__logo {
+  order: 1;
+}
+
+.navBar__logo--img {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.navbar-toggler {
+  order: 2;
+  margin-left: auto;
+  border-color: rgb(234, 234, 234);
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="%23ffffff" viewBox="0 0 30 30"><path stroke="rgba(234, 234, 234, 0.5)" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg>');
+}
+
+.navbar-collapse {
+  flex-direction: column;
+}
+
+.collapse.navbar-collapse {
+  flex-direction: column !important;
+}
+
+li {
+  width: 15em;
+  font-weight: normal;
+}
+
+/* MAIN */
+body {
+  max-width: 1920px;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  background-image: linear-gradient(#D9695F, #F22613);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-wrap: wrap;
+}
+body main {
+  min-height: 100vh;
+  margin: 1vw;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+body main li {
+  text-decoration: none;
+}
+body main h1 {
+  font-weight: bold;
+  font-size: xx-large;
+  color: #eaeaea;
+}
+body main h2 {
+  font-weight: bold;
+  font-size: xx-large;
+  color: #eaeaea;
+}
+body main .h3 {
+  font-weight: bold;
+  font-size: x-large;
+  color: #eaeaea;
+}
+body main p {
+  font-weight: normal;
+  font-size: x-large;
+  color: #eaeaea;
+}
+body .main__silueta {
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+}
+body .main__map {
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+}
+body .lacasa__cont {
+  max-width: 100%;
+  height: auto;
+}
+
+/*AGENDA*/
+.main__agenda {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+}
+
+/*GRID FORM*/
+.inscripciones__form .sumate__form {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: left;
+}
+
+/*FLEX LA CASA*/
+.flex__lacasa {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.flex__lacasa .lacasa__txt {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+.flex__lacasa .lacasa__cont {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* FLEX ACTIVIDADES */
+.flex {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  min-width: 480px;
+  height: auto;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+}
+
+.flex__card1 {
+  width: 480px;
+  height: 700px;
+  background-image: url(../images/talleres_byn.png);
+  background-size: cover;
+}
+
+.flex__card2 {
+  width: 480px;
+  height: 700px;
+  background-image: url(../images/workshop_byn.png);
+  background-size: cover;
+}
+
+.flex__card3 {
+  width: 480px;
+  max-height: 700px;
+  background-image: url(../images/movimiento_byn.png);
+  background-size: cover;
+}
+
+.titulo__actividad {
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #eaeaea;
+}
+.titulo__actividad .descripcion__actividad {
+  font-weight: normal;
+  font-size: x-large;
+  color: #eaeaea;
+}
+
+/* FOOTER */
+footer {
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+footer .socialLinks i {
+  width: 20px;
+  display: block;
+  margin: 10px;
+  display: inline-block;
+  color: #eaeaea;
+}
+footer .copyright {
+  font-size: small;
+  display: block;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  color: #eaeaea;
+}
+footer .policy {
+  font-size: small;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  display: block;
+  line-height: 1.5;
+}
+
+#footer a {
+  text-decoration: none;
+  font-style: none;
+  color: #eaeaea;
+}
+
+@media (max-width: 768px) {
+  .navbar-logo--img {
+    max-width: 50%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

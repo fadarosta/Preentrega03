@@ -1,0 +1,33 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    line-height: 1.5;
+    font-size: unset;
+    /*border: 1px red solid*/
+    li {
+      display: inline-block;
+    }
+    button {
+      background: lightgrey;
+      border-radius: 20px gray;
+      padding: 10px;
+      font-size: large;
+    }
+    form fieldset {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      background: none;
+      font-family: "Arial", sans-serif;
+      font-size: 100%;
+      color: inherit;
+      display: block;
+    }
+  }
+  

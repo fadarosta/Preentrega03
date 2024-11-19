@@ -1,0 +1,61 @@
+/* HEADER */
+header {
+  max-width: 1920px;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  #navBar{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    ul{
+      li{
+        a{
+          font-style: none;
+          font-size: larger;
+          text-decoration: none;
+          color: #eaeaea;
+          display: flex;
+          flex-direction: column;
+          }
+        }
+      }
+    }
+  }  
+.navBarr__logo {
+  order: 1;
+}
+.navBar__logo--img{
+  max-width: 100%;
+  height: auto;
+  display: flex;
+}
+.navbar-toggler {
+  order: 2;
+  margin-left: auto;
+  border-color: rgb(234, 234, 234);
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="%23ffffff" viewBox="0 0 30 30"><path stroke="rgba(234, 234, 234, 0.5)" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg>');
+}
+.navbar-collapse{
+  flex-direction: column;
+}
+.collapse.navbar-collapse {
+  flex-direction: column !important; /* Apila los elementos verticalmente */
+}
+li {
+  width: 15em;
+  font-weight: normal;
+}
